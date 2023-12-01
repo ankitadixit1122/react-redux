@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+html,
+body {
+	height: 100%;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;    
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+	
+	background: linear-gradient(45deg, #9ac3c1, #9980aa);
+	font-weight: 100;
+    padding: 80px;
+    font-family:'Times New Roman', Times, serif;
+}
+label{
+    text-align: center;
+    font-size: 30px;
+    color:black
+   
+}
+.container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type=text],
+input[type=number] {
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    margin-bottom:10px;
+    border-radius: 25px;
+    }
+
+button{
+    text-align: center;
+    padding: 10px 32px;
+    border-radius: 25px;
+    border: none;
+    background-color:#ebe1ef;
+    margin: 5px;
+    color:#9980aa
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+	
