@@ -6,7 +6,6 @@ const initialState ={
     
 }
 
-
 export default function Bankreducer(state=initialState, action) {
 
     switch (action.type){

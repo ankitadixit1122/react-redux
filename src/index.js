@@ -13,7 +13,6 @@ const reducerstore=createStore(Bankreducer)
 root.render(
   <Provider store={reducerstore}>
 
-
   <React.StrictMode>
     <App />
   </React.StrictMode>

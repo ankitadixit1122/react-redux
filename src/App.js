@@ -18,7 +18,7 @@ function App() {
   let Lamount = stateValues.loan;
   let Lpurpose = stateValues.loanpurpose;
   let Loanamount = stateValues.loanamount;
- 
+
     return (
       <div className='contaianer'>
           <div>  
